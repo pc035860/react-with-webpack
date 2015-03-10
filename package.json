@@ -1,0 +1,24 @@
+{
+  "name": "react-with-webpack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "author": "Chih-Hsuan Fan <pc035860@gmail.com> (http://pymaster.logdown.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.7.2",
+    "webpack-dev-server": "^1.7.0",
+    "jsx-loader": "^0.12.2",
+    "babel-core": "^4.7.3",
+    "babel-loader": "^4.1.0",
+    "react-router": "^0.12.4",
+    "react-hot-loader": "^1.2.1"
+  }
+}
