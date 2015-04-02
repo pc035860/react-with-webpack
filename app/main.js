@@ -1,8 +1,8 @@
 'use strict';
 
 import React from 'react';
-import Hello from './Hello.jsx';
-import MyInput from './MyInput.jsx';
+import Hello from './Hello';
+import MyInput from './MyInput';
 
 let App = React.createClass({
   render() {
